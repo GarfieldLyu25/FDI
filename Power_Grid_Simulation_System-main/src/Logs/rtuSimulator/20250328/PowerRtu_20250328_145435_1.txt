@@ -1,0 +1,10 @@
+2025-03-28 14:54:35,682 INFO     Start Init the RTU: RTU-01-08
+2025-03-28 14:54:35,683 INFO     Try to connnect to the realword [('127.0.0.1', 3001)]...
+2025-03-28 14:54:35,683 INFO     Realworld emulator online, state: ready
+2025-03-28 14:54:35,683 INFO     Login the realworld successfully.
+2025-03-28 14:54:35,711 INFO     S7comm service thread run() start.
+2025-03-28 14:54:35,711 INFO     Finished init the RTU: RTU-01-08
+2025-03-28 15:35:08,335 WARNING  Lost connection to the server.
+2025-03-28 15:37:11,028 INFO     Try to reconnect to the realword.
+2025-03-28 15:37:11,029 INFO     Try to connnect to the realword [('127.0.0.1', 3001)]...
+2025-03-28 15:37:11,033 INFO     Realworld emulator online, state: ready

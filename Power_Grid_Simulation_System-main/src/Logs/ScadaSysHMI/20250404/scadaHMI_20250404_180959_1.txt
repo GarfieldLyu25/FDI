@@ -1,0 +1,30 @@
+2025-04-04 18:10:00,050 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-04-04 18:10:00,056 INFO     ScadaHMI dataMgr inited
+2025-04-04 18:10:02,617 INFO     DataManager: get PLC information
+2025-04-04 18:10:05,117 INFO     DataManager: get PLC information
+2025-04-04 18:10:07,616 INFO     DataManager: get PLC information
+2025-04-04 18:10:08,115 INFO     DataManager: set PLC coil:('PLC-00', 16, True)
+2025-04-04 18:10:09,180 INFO     DataManager: set PLC coil:('PLC-00', 19, True)
+2025-04-04 18:10:09,623 INFO     DataManager: get PLC information
+2025-04-04 18:10:11,631 INFO     DataManager: get PLC information
+2025-04-04 18:10:13,636 INFO     DataManager: get PLC information
+2025-04-04 18:10:16,123 INFO     DataManager: get PLC information
+2025-04-04 18:10:18,134 INFO     DataManager: get PLC information
+2025-04-04 18:10:20,623 INFO     DataManager: get PLC information
+2025-04-04 18:10:23,129 INFO     DataManager: get PLC information
+2025-04-04 18:10:25,135 INFO     DataManager: get PLC information
+2025-04-04 18:10:27,136 INFO     DataManager: get PLC information
+2025-04-04 18:10:29,138 INFO     DataManager: get PLC information
+2025-04-04 18:10:31,138 INFO     DataManager: get PLC information
+2025-04-04 18:10:33,168 INFO     DataManager: get PLC information
+2025-04-04 18:10:35,657 INFO     DataManager: get PLC information
+2025-04-04 18:10:38,166 INFO     DataManager: get PLC information
+2025-04-04 18:10:38,198 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-04-04 18:10:40,177 INFO     DataManager: get PLC information
+2025-04-04 18:10:42,684 INFO     DataManager: get PLC information
+2025-04-04 18:10:44,689 INFO     DataManager: get PLC information
+2025-04-04 18:10:46,706 INFO     DataManager: get PLC information
+2025-04-04 18:10:48,724 INFO     DataManager: get PLC information
+2025-04-04 18:10:51,228 INFO     DataManager: get PLC information
+2025-04-04 18:10:53,718 INFO     DataManager: get PLC information
+2025-04-04 18:10:54,623 INFO     DataManager: Stopped all PLC clients

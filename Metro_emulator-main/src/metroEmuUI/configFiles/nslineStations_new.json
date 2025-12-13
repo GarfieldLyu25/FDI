@@ -1,0 +1,50 @@
+[
+    {
+        "id": "Dragonstone",
+        "pos": [
+            360,
+            450
+        ],
+        "signalLayout": 3
+    },
+    {
+        "id": "Red_Keep",
+        "pos": [
+            430,
+            50
+        ],
+        "signalLayout": 2
+    },
+    {
+        "id": "Valyria_Vista",
+        "pos": [
+            1040,
+            50
+        ],
+        "signalLayout": 2
+    },
+    {
+        "id": "Volantis_View",
+        "pos": [
+            980,
+            300
+        ],
+        "signalLayout": 3
+    },
+    {
+        "id": "Blackfyre_Bridge",
+        "pos": [
+            750,
+            600
+        ],
+        "signalLayout": 3
+    },
+    {
+        "id": "Harrenhal",
+        "pos": [
+            550,
+            100
+        ],
+        "signalLayout": 3
+    }
+]

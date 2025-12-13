@@ -1,0 +1,1183 @@
+2025-04-04 21:37:53,234 INFO     Start Init the PLC: PLC-01
+2025-04-04 21:37:53,235 INFO     Try to connnect to the realword [('127.0.0.1', 3001)]...
+2025-04-04 21:37:53,235 INFO     Realworld emulator online, state: ready
+2025-04-04 21:37:53,236 INFO     Login the realworld successfully
+2025-04-04 21:37:53,236 INFO     ModbusTCP service thread run() start.
+2025-04-04 21:37:53,236 INFO     Finished init the PLC: PLC-01
+2025-04-04 21:37:53,237 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:53,451 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:53,451 INFO     Finished calculate all coils: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:54,260 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:54,466 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:55,282 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:55,489 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:56,296 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:56,503 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:57,313 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:57,518 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:58,330 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:58,538 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:37:59,352 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:37:59,560 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:00,387 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:00,589 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:01,401 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:01,607 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:02,415 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:02,621 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:03,430 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:03,636 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:04,440 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:04,647 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:05,458 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:05,666 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:06,479 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:06,685 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:07,496 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:07,702 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:08,511 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:08,717 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:09,526 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:09,730 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:10,540 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:10,746 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:11,558 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:11,761 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:12,571 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:12,778 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:13,585 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:13,792 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:14,600 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:14,807 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:15,618 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:15,823 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:16,632 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:16,838 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:17,648 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:17,854 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:18,665 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:18,871 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:19,679 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:19,884 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:20,692 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:20,900 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:21,714 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:21,920 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:22,734 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:22,941 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:23,755 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:23,960 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:24,768 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:24,975 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:25,788 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:25,996 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:26,805 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:27,012 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:27,818 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:28,025 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:28,845 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:29,053 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:29,876 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:30,082 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:30,891 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:31,098 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:31,941 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:32,144 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:32,956 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:33,163 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:33,975 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:34,180 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:34,987 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:35,192 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:36,013 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:36,218 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:37,025 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:37,231 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:38,040 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:38,247 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:39,059 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:39,266 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:40,075 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:40,281 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:41,089 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:41,297 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:42,109 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:42,313 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:43,122 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:43,327 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:44,138 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:44,343 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:45,152 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:45,357 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:46,165 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:46,372 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:47,180 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:47,383 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:48,195 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:48,402 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:49,215 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:49,423 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+2025-04-04 21:38:50,236 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:50,443 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:51,251 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:51,456 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:52,278 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:52,485 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:53,295 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:53,500 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:54,307 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:54,513 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:55,322 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:55,528 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:56,349 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:56,556 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:57,364 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:57,572 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:58,385 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:58,588 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:38:59,405 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:38:59,613 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:00,431 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:00,637 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:01,447 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:01,652 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:02,462 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:02,667 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:03,475 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:03,682 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:04,490 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:04,697 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:05,506 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:05,714 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:06,523 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:06,728 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:07,539 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:07,745 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:08,552 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:08,759 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:09,573 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:09,780 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:10,594 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:10,801 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:11,614 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:11,820 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:12,627 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:12,834 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:13,644 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:13,852 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:14,663 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:14,871 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:15,680 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:15,885 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:16,699 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:16,904 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:17,717 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:17,924 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:18,734 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:18,940 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:19,748 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:19,954 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:20,763 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:20,969 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:21,778 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:21,984 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:22,793 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:22,997 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:23,804 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:24,011 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:24,817 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:25,025 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:25,831 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:26,036 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:26,845 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:27,051 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:27,871 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:28,077 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:28,885 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:29,089 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:29,897 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:30,104 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:30,911 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:31,118 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:31,939 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:32,145 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:32,954 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:33,160 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:33,970 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:34,176 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:34,982 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:35,190 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:35,997 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:36,201 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:37,010 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:37,216 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:38,027 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:38,232 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:39,042 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:39,247 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:40,068 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:40,274 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:41,082 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:41,289 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:42,110 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:42,316 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:43,125 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:43,332 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:44,143 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:44,347 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:45,156 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:45,362 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:46,172 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:46,378 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:47,200 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:47,407 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:48,228 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:48,435 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:49,244 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:49,450 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:50,259 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:50,465 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:51,273 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:51,477 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:52,283 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:52,490 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:53,311 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:53,517 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:54,328 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:54,535 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:55,343 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:55,549 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:56,358 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:56,566 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:57,373 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:57,580 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:58,388 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:58,596 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:39:59,407 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:39:59,613 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:00,419 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:00,626 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:01,440 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:01,643 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:02,455 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:02,660 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:03,474 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:03,680 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:04,491 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:04,699 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:05,519 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:05,726 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:06,533 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:06,739 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:07,546 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:07,753 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:08,557 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:08,764 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:09,573 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:09,779 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:10,582 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:10,787 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:11,595 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:11,801 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:12,606 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:12,809 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:13,619 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:13,824 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:14,633 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:14,838 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:15,659 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:15,866 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:16,673 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:16,880 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:17,689 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:17,896 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:18,715 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:18,923 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:19,736 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:19,943 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:20,753 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:20,959 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:21,772 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:21,980 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:22,794 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:23,001 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:23,813 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:24,019 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:24,829 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:25,035 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:25,847 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:26,053 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:26,863 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:27,069 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:27,875 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:28,081 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:28,888 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:29,095 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:29,908 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:30,116 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:30,927 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:31,134 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:31,943 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:32,148 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:32,959 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:33,165 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:33,975 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:34,182 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:34,994 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:35,200 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:36,014 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:36,220 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:37,034 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:37,241 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:38,052 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:38,259 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:39,065 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:39,272 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:40,079 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:40,285 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:41,096 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:41,303 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:42,125 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:42,331 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:43,141 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:43,346 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:44,156 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:44,361 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:45,171 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:45,378 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:46,188 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:46,395 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:47,203 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:47,411 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:48,226 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:48,434 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:49,243 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:49,450 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:50,263 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:50,469 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:51,281 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:51,489 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:52,299 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:52,506 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:53,314 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:53,519 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:54,329 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:54,534 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:55,344 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:55,548 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:56,357 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:56,563 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:57,372 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:57,578 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:58,391 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:58,598 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:40:59,419 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:40:59,627 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:00,432 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:00,639 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:01,451 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:01,658 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:02,473 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:02,678 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:03,498 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:03,704 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:04,512 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:04,719 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:05,531 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:05,739 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:06,549 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:06,755 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:07,562 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:07,770 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:08,581 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:08,788 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:09,607 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:09,815 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:10,626 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:10,834 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:11,655 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:11,861 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:12,668 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:12,875 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:13,683 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:13,890 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:14,703 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:14,908 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:15,729 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:15,935 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:16,745 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:16,947 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:17,759 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:17,962 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:18,772 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:18,980 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:19,794 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:20,002 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:20,817 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:21,025 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:21,834 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:22,041 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:22,852 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:23,057 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:23,877 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:24,081 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:24,892 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:25,098 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:25,910 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:26,116 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:26,926 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:27,134 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:27,942 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:28,150 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:28,971 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:29,177 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:29,990 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:30,198 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:31,007 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:31,212 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:32,022 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:32,228 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:33,042 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:33,249 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:34,059 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:34,267 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:35,080 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:35,287 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:36,101 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:36,308 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:37,121 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:37,329 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:38,144 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:38,351 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:39,159 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:39,365 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:40,186 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:40,393 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:41,206 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:41,413 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:42,224 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:42,431 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:43,243 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:43,451 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:44,264 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:44,472 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:45,285 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:45,492 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:46,303 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:46,511 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:47,323 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:47,531 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:48,353 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:48,559 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:49,372 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:49,578 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:50,386 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:50,593 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:51,403 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:51,611 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:52,422 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:52,628 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:53,442 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:53,650 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:54,460 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:54,667 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:55,479 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:55,687 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:56,493 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:56,699 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:57,514 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:57,720 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:58,533 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:58,739 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:41:59,550 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:41:59,758 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:00,568 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:00,773 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:01,581 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:01,788 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:02,595 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:02,802 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:03,610 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:03,816 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:04,626 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:04,834 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:05,645 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:05,853 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:06,666 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:06,872 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:07,683 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:07,885 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:08,694 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:08,900 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:09,706 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:09,912 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:10,726 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:10,933 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1]
+2025-04-04 21:42:11,744 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:11,950 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, False, 1]
+2025-04-04 21:42:12,757 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:12,962 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, False, 1]
+2025-04-04 21:42:13,773 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:13,978 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, False, 1]
+2025-04-04 21:42:14,799 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:15,007 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:15,816 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:16,022 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:16,831 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:17,039 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:17,849 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:18,056 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:18,867 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:19,075 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:19,886 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:20,092 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:20,904 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:21,110 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:21,923 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:22,129 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:22,942 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:23,149 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:23,966 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:24,168 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:24,980 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:25,186 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:25,994 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:26,201 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:27,008 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:27,215 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:28,023 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:28,229 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:29,038 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:29,243 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:30,053 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:30,259 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:31,069 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:31,277 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:32,098 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:32,306 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:33,119 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:33,321 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:34,131 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:34,336 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:35,145 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:35,351 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:36,160 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:36,366 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:37,176 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:37,382 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:38,189 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:38,396 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:39,207 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:39,412 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:40,220 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:40,427 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:41,238 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:41,444 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:42,251 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:42,457 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:43,267 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:43,472 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:44,278 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:44,485 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:45,296 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:45,504 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:46,325 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:46,530 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:47,342 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:47,547 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:48,369 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:48,577 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:49,385 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:49,592 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:50,400 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:50,606 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:51,414 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:51,618 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:52,438 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:52,643 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:53,452 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:53,659 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:54,467 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:54,673 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:55,479 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:55,685 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:56,494 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:56,700 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:57,509 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:57,715 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:58,521 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:58,722 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:42:59,529 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:42:59,736 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:00,540 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:00,746 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:01,554 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:01,760 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:02,567 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:02,774 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:03,581 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:03,789 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:04,596 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:04,802 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:05,611 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:05,817 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:06,626 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:06,833 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:07,642 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:07,848 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:08,656 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:08,861 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:09,668 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:09,873 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:10,680 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:10,885 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:11,696 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:11,901 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:12,709 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:12,916 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:13,724 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:13,929 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:14,736 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:14,951 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:15,764 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:15,966 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:16,777 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:16,983 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:17,792 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:18,000 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:18,811 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:19,016 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:19,826 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:20,032 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:20,841 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:21,047 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:21,854 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:22,060 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:22,882 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:23,085 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:23,904 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:24,109 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:24,930 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:25,136 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:25,948 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:26,155 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:26,965 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:27,172 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:27,979 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:28,187 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:28,997 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:29,202 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:30,012 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:30,220 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:31,030 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:31,238 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:32,047 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:32,253 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:33,064 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:33,272 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:34,076 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:34,284 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:35,106 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:35,314 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:36,131 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:36,337 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:37,150 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:37,358 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:38,168 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:38,375 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:39,198 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:39,404 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:40,226 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:40,432 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:41,255 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:41,462 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:42,272 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:42,478 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:43,289 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:43,496 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:44,319 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:44,527 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:45,342 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:45,549 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:46,357 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:46,564 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:47,372 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:47,579 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:48,399 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:48,607 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:49,419 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:49,627 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:50,433 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:50,641 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:51,463 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:51,670 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:52,485 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:52,689 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:53,501 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:53,708 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:54,522 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:54,728 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:55,541 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:55,747 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:56,554 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:56,761 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:57,568 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:57,775 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:58,583 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:58,787 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:43:59,595 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:43:59,801 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:00,608 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:00,815 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:01,632 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:01,838 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:02,648 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:02,853 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:03,670 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:03,873 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:04,681 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:04,887 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:05,695 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:05,901 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:06,710 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:06,914 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:07,723 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:07,930 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:08,744 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:08,951 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:09,763 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:09,969 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:10,778 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:10,984 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:11,793 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:11,999 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:12,808 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:13,013 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:13,841 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:14,049 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:14,863 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:15,070 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:15,878 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:16,084 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:16,893 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:17,099 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:17,907 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:18,115 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:18,930 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:19,136 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:19,955 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:20,160 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:20,976 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:21,180 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:21,990 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:22,197 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:23,010 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:23,216 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:24,029 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:24,235 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:25,048 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:25,256 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:26,069 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:26,274 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:27,082 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:27,290 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:28,097 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:28,305 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:29,118 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:29,326 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:30,135 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:30,341 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:31,150 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:31,357 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:32,175 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:32,382 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:33,196 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:33,402 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:34,215 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:34,419 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:35,229 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:35,435 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:36,249 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:36,453 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:37,268 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:37,472 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:38,279 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:38,483 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:39,293 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:39,499 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:40,320 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:40,528 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:41,340 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:41,546 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:42,361 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:42,567 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:43,380 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:43,586 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:44,398 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:44,605 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:45,416 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:45,623 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:46,439 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:46,647 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:47,469 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:47,676 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:48,481 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:48,686 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:49,494 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:49,701 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:50,509 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:50,714 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:51,522 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:51,729 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:52,538 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:52,741 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:53,564 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:53,772 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:54,583 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:54,790 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:55,605 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:55,810 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:56,619 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:56,824 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:57,633 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:57,838 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:58,649 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:58,856 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:44:59,667 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:44:59,874 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:00,696 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:00,903 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:01,712 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:01,919 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:02,740 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:02,946 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:03,752 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:03,959 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:04,771 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:04,978 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:05,785 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:05,992 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:06,800 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:07,006 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:07,816 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:08,020 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:08,841 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:09,049 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:09,860 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:10,067 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:10,875 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:11,080 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:11,890 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:12,095 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:12,903 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:13,111 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:13,923 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:14,131 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:14,940 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:15,148 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:15,954 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:16,161 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:16,973 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:17,180 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:17,992 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:18,199 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:19,014 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:19,220 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:20,028 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:20,235 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:21,046 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:21,252 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:22,058 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:22,265 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:23,087 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:23,294 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:24,115 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:24,321 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:25,131 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:25,338 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:26,143 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:26,349 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:27,157 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:27,364 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:28,173 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:28,381 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:29,191 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:29,396 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:30,205 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:30,412 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:31,218 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:31,424 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:32,232 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:32,438 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:33,247 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:33,453 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:34,261 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:34,466 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:35,275 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:35,481 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:36,301 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:36,507 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:37,315 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:37,521 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:38,329 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:38,535 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:39,343 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:39,549 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:40,355 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:40,563 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:41,371 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:41,578 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:42,391 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:42,598 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:43,410 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:43,616 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:44,436 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:44,642 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:45,450 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:45,658 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:46,466 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:46,673 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:47,479 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:47,685 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:48,489 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:48,696 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:49,504 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:49,710 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:50,525 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:50,732 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:51,545 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:51,752 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:52,561 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:52,768 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:53,576 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:53,783 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:54,590 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:54,798 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:55,611 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:55,818 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:56,625 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:56,832 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:57,645 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:57,853 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:58,662 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:58,867 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:45:59,676 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:45:59,880 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:00,688 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:00,893 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:01,703 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:01,910 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:02,719 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:02,925 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:03,733 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:03,935 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:04,747 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:04,955 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:05,765 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:05,971 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:06,780 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:06,985 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:07,799 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:08,006 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:08,814 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:09,021 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:09,829 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:10,035 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:10,845 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:11,049 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:11,861 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:12,064 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:12,876 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:13,082 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:13,897 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:14,104 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:14,918 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:15,125 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:15,939 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:16,144 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:16,954 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:17,158 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:17,970 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:18,177 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:18,991 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:19,199 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:20,020 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:20,227 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:21,050 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:21,258 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:22,069 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:22,277 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:23,088 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:23,292 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:24,110 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:24,317 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:25,141 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:25,348 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:26,160 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:26,366 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:27,174 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:27,381 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:28,189 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:28,396 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:29,203 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:29,409 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:30,230 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:30,437 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:31,244 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:31,449 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:32,270 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:32,477 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:33,286 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:33,491 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:34,301 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:34,507 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:35,313 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:35,521 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:36,343 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:36,548 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:37,355 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:37,562 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:38,371 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:38,577 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:39,386 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:39,592 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:40,400 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:40,606 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:41,417 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:41,624 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:42,446 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:42,653 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:43,462 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:43,668 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:44,476 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:44,681 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:45,487 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:45,693 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:46,501 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:46,708 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:47,518 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:47,722 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:48,530 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:48,737 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:49,556 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:49,763 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:50,572 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:50,778 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:51,587 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:51,793 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:52,605 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:52,812 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:53,619 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:53,827 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:54,634 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:54,841 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:55,650 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:55,858 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:56,668 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:56,875 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:57,684 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:57,888 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:58,700 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:58,902 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:46:59,711 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:46:59,919 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:00,728 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:00,934 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:01,744 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:01,949 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:02,759 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:02,964 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:03,771 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:03,978 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:04,789 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:04,993 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:05,801 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:06,007 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:06,816 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:07,021 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:07,832 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:08,037 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:08,844 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:09,048 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:09,858 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:10,063 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:10,879 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:11,087 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:11,902 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:12,109 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:12,919 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:13,126 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:13,937 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:14,143 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:14,951 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:15,157 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:15,979 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:16,183 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:16,992 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:17,199 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:18,008 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:18,214 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:19,024 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:19,231 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:20,052 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:20,259 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:21,068 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:21,272 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:22,080 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:22,285 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:23,093 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:23,299 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:24,117 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:24,318 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:25,131 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:25,338 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:26,151 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:26,358 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:27,181 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:27,388 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:28,197 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:28,402 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:29,211 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:29,417 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:30,225 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:30,430 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:31,243 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:31,450 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:32,259 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:32,464 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:33,275 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:33,479 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:34,292 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:34,499 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:35,311 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:35,518 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:36,337 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:36,543 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:37,354 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:37,560 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:38,372 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:38,577 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:39,398 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:39,605 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:40,413 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:40,619 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:41,426 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:41,632 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:42,442 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:42,650 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:43,457 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:43,663 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:44,467 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:44,674 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:45,483 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:45,689 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:46,496 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:46,702 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:47,513 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:47,719 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:48,532 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:48,739 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:49,550 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:49,757 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]
+2025-04-04 21:47:50,569 WARNING  The reply type doesnt match.('powerPlc', 'switches')
+2025-04-04 21:47:50,776 INFO     updateModBusInfo(): update holding registers: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, True, 1]

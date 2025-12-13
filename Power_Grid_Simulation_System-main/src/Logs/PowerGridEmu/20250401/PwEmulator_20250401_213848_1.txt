@@ -1,0 +1,2 @@
+2025-04-01 21:38:48,797 INFO     Power Grid System  Physical World Simulation main frame inited.
+2025-04-01 21:38:49,801 INFO     datamanager subthread started.

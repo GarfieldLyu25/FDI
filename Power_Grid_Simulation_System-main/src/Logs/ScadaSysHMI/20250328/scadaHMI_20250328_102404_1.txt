@@ -1,0 +1,1 @@
+2025-03-28 10:24:04,588 INFO     DataManager: Connected to PLC 127.0.0.1

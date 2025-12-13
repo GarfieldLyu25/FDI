@@ -1,0 +1,16 @@
+2025-12-13 22:24:44,633 INFO     Power Grid System  Physical World Simulation main frame inited.
+2025-12-13 22:24:45,641 INFO     datamanager subthread started.
+2025-12-13 22:24:45,893 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-12-13 22:24:50,909 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-12-13 22:24:52,482 INFO     Incomming message: b'GET;login;{"plcID": "PLC-01"}'
+2025-12-13 22:24:54,487 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:24:54,895 INFO     Incomming message: b'POST;powerPlc;{"allswitch": [true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true]}'
+2025-12-13 22:24:55,498 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:24:55,910 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-12-13 22:24:56,512 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:24:57,527 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:24:58,543 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:24:59,569 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:25:00,592 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'
+2025-12-13 22:25:00,922 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-12-13 22:25:01,606 INFO     Incomming message: b'GET;powerPlc;{"allswitch": null}'

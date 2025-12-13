@@ -1,0 +1,8 @@
+2025-04-01 21:46:43,587 INFO     Avalible Scenario file: ['defaultLocation.json', 'junctionCollision.json', 'maintenanceTest.json', 'trainCollisionTest.json']
+2025-04-01 21:46:43,589 INFO     Map display management controller inited
+2025-04-01 21:46:43,622 INFO     datamanager init finished.
+2025-04-01 21:46:43,623 INFO     Metro-System real world main frame inited.
+2025-04-01 21:46:44,634 INFO     datamanager subthread started.
+2025-04-01 21:46:52,055 INFO     Show Train realworld information enable: True
+2025-04-01 22:29:29,502 INFO     Incomming message: b''
+2025-04-01 22:29:29,502 INFO     DataManager running finished.

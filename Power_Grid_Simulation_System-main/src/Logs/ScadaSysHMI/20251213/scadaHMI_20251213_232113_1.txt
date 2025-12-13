@@ -1,0 +1,98 @@
+2025-12-13 23:21:13,536 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-12-13 23:21:13,602 INFO     ScadaHMI dataMgr inited
+2025-12-13 23:21:16,679 INFO     DataManager: get PLC information
+2025-12-13 23:21:19,182 INFO     DataManager: get PLC information
+2025-12-13 23:21:21,671 INFO     DataManager: get PLC information
+2025-12-13 23:21:23,683 INFO     DataManager: get PLC information
+2025-12-13 23:21:26,184 INFO     DataManager: get PLC information
+2025-12-13 23:21:28,683 INFO     DataManager: get PLC information
+2025-12-13 23:21:31,183 INFO     DataManager: get PLC information
+2025-12-13 23:21:33,679 INFO     DataManager: get PLC information
+2025-12-13 23:21:36,181 INFO     DataManager: get PLC information
+2025-12-13 23:21:38,671 INFO     DataManager: get PLC information
+2025-12-13 23:21:40,678 INFO     DataManager: get PLC information
+2025-12-13 23:21:42,684 INFO     DataManager: get PLC information
+2025-12-13 23:21:45,178 INFO     DataManager: get PLC information
+2025-12-13 23:21:47,181 INFO     DataManager: get PLC information
+2025-12-13 23:21:49,681 INFO     DataManager: get PLC information
+2025-12-13 23:21:51,683 INFO     DataManager: get PLC information
+2025-12-13 23:21:54,182 INFO     DataManager: get PLC information
+2025-12-13 23:21:56,193 INFO     DataManager: get PLC information
+2025-12-13 23:21:58,198 INFO     DataManager: get PLC information
+2025-12-13 23:22:00,700 INFO     DataManager: get PLC information
+2025-12-13 23:22:03,200 INFO     DataManager: get PLC information
+2025-12-13 23:22:05,701 INFO     DataManager: get PLC information
+2025-12-13 23:22:08,200 INFO     DataManager: get PLC information
+2025-12-13 23:22:10,700 INFO     DataManager: get PLC information
+2025-12-13 23:22:13,188 INFO     DataManager: get PLC information
+2025-12-13 23:22:15,201 INFO     DataManager: get PLC information
+2025-12-13 23:22:17,691 INFO     DataManager: get PLC information
+2025-12-13 23:22:19,697 INFO     DataManager: get PLC information
+2025-12-13 23:22:22,194 INFO     DataManager: get PLC information
+2025-12-13 23:22:24,696 INFO     DataManager: get PLC information
+2025-12-13 23:22:27,201 INFO     DataManager: get PLC information
+2025-12-13 23:22:29,700 INFO     DataManager: get PLC information
+2025-12-13 23:22:32,186 INFO     DataManager: get PLC information
+2025-12-13 23:22:34,187 INFO     DataManager: get PLC information
+2025-12-13 23:22:36,196 INFO     DataManager: get PLC information
+2025-12-13 23:22:38,698 INFO     DataManager: get PLC information
+2025-12-13 23:22:41,192 INFO     DataManager: get PLC information
+2025-12-13 23:22:43,198 INFO     DataManager: get PLC information
+2025-12-13 23:22:45,200 INFO     DataManager: get PLC information
+2025-12-13 23:22:47,201 INFO     DataManager: get PLC information
+2025-12-13 23:22:49,695 INFO     DataManager: get PLC information
+2025-12-13 23:22:52,200 INFO     DataManager: get PLC information
+2025-12-13 23:22:54,697 INFO     DataManager: get PLC information
+2025-12-13 23:22:57,189 INFO     DataManager: get PLC information
+2025-12-13 23:22:59,194 INFO     DataManager: get PLC information
+2025-12-13 23:23:01,197 INFO     DataManager: get PLC information
+2025-12-13 23:23:03,696 INFO     DataManager: get PLC information
+2025-12-13 23:23:05,699 INFO     DataManager: get PLC information
+2025-12-13 23:23:08,187 INFO     DataManager: get PLC information
+2025-12-13 23:23:10,212 INFO     DataManager: get PLC information
+2025-12-13 23:23:12,714 INFO     DataManager: get PLC information
+2025-12-13 23:23:14,715 INFO     DataManager: get PLC information
+2025-12-13 23:23:17,202 INFO     DataManager: get PLC information
+2025-12-13 23:23:19,216 INFO     DataManager: get PLC information
+2025-12-13 23:23:21,708 INFO     DataManager: get PLC information
+2025-12-13 23:23:24,207 INFO     DataManager: get PLC information
+2025-12-13 23:23:26,711 INFO     DataManager: get PLC information
+2025-12-13 23:23:28,716 INFO     DataManager: get PLC information
+2025-12-13 23:23:31,203 INFO     DataManager: get PLC information
+2025-12-13 23:23:33,215 INFO     DataManager: get PLC information
+2025-12-13 23:23:35,716 INFO     DataManager: get PLC information
+2025-12-13 23:23:38,214 INFO     DataManager: get PLC information
+2025-12-13 23:23:40,231 INFO     DataManager: get PLC information
+2025-12-13 23:23:40,351 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:23:42,726 INFO     DataManager: get PLC information
+2025-12-13 23:23:45,218 INFO     DataManager: get PLC information
+2025-12-13 23:23:47,227 INFO     DataManager: get PLC information
+2025-12-13 23:23:47,254 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:23:49,320 INFO     DataManager: get PLC information
+2025-12-13 23:23:51,728 INFO     DataManager: get PLC information
+2025-12-13 23:23:54,221 INFO     DataManager: get PLC information
+2025-12-13 23:23:54,346 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:23:56,223 INFO     DataManager: get PLC information
+2025-12-13 23:23:58,227 INFO     DataManager: get PLC information
+2025-12-13 23:24:00,230 INFO     DataManager: get PLC information
+2025-12-13 23:24:00,358 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:24:02,719 INFO     DataManager: get PLC information
+2025-12-13 23:24:04,719 INFO     DataManager: get PLC information
+2025-12-13 23:24:06,731 INFO     DataManager: get PLC information
+2025-12-13 23:24:06,858 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:24:09,222 INFO     DataManager: get PLC information
+2025-12-13 23:24:11,229 INFO     DataManager: get PLC information
+2025-12-13 23:24:13,719 INFO     DataManager: get PLC information
+2025-12-13 23:24:13,846 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:24:15,721 INFO     DataManager: get PLC information
+2025-12-13 23:24:17,727 INFO     DataManager: get PLC information
+2025-12-13 23:24:20,232 INFO     DataManager: get PLC information
+2025-12-13 23:24:20,358 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:24:22,722 INFO     DataManager: get PLC information
+2025-12-13 23:24:25,220 INFO     DataManager: get PLC information
+2025-12-13 23:24:27,241 INFO     DataManager: get PLC information
+2025-12-13 23:24:27,270 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 23:24:29,248 INFO     DataManager: get PLC information
+2025-12-13 23:24:31,734 INFO     DataManager: get PLC information
+2025-12-13 23:24:33,747 INFO     DataManager: get PLC information
+2025-12-13 23:24:33,885 INFO     DataManager: set PLC coil:('PLC-00', 19, False)

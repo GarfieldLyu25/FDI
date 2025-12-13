@@ -1,0 +1,6 @@
+2025-04-04 17:59:36,421 INFO     Power Grid System  Physical World Simulation main frame inited.
+2025-04-04 17:59:37,424 INFO     datamanager subthread started.
+2025-04-04 17:59:37,424 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-04-04 17:59:42,434 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-04-04 17:59:47,443 INFO     Incomming message: b'GET;powerLink;{"railway": null}'
+2025-04-04 17:59:52,449 INFO     Incomming message: b'GET;powerLink;{"railway": null}'

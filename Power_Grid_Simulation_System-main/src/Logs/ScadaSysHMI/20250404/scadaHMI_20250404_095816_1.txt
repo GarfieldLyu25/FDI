@@ -1,0 +1,2 @@
+2025-04-04 09:58:16,894 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-04-04 09:58:16,951 INFO     ScadaHMI dataMgr inited

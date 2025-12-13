@@ -1,0 +1,45 @@
+# This is the config file template for the module <MetroEmuRun.py>
+# Setup the paramter with below format (every line follow <key>:<val> format, the
+# key can not be changed):
+
+#-----------------------------------------------------------------------------
+# Config section 00: Basic general parameter config.
+
+# Test mode:
+# True: use the real word internal logic to simulator the control logic. 
+# False: connect to PLC let plc control the signals 
+TEST_MD:True
+
+# Init the dataManager port for PCL to fetch and set data. 
+UDP_PORT:3001
+
+#-----------------------------------------------------------------------------
+# define UI title name 
+UI_TITLE:2D Railway[Metro] System Real-world Emulator
+
+# Init the UI update interval:
+UI_INTERVAL:2
+
+# Init Control paramters
+# Trains collision avoidence flag.
+COLL_AVOID:True
+
+# Trains Junction auto correct flag.(Check junction state and auto correct wrong PLC signal)
+JUNC_AVOID:True
+
+# Set train dock time: ==0 train will stay in station in a random Interval, > 0 num of time 
+# circle train will stay in 
+DOCK_TIME:5
+
+# Init Plc connection time out, if plc is not connect in num of seconds, the system will
+# treate it as offline
+PLC_TIMEOUT: 3
+
+# Train config json file.
+TR_CFG_FOLDER:TrainLocation
+
+# Station config json file
+WE_STATION_CFG:welineStations.json
+NC_STATION_CFG:nslineStations.json
+CC_STATION_CFG:cclineStations.json
+MT_STATION_CFG:mtlineStations.json

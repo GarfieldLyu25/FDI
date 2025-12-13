@@ -1,0 +1,65 @@
+- name: Create realwordEmulator instance VM on EXSI-Vmware
+  vmware_guest:
+    <<: *esxi_login
+    folder: /
+    name: XS23-RAIL-realwordEmulator
+    state: present
+    guest_id: XS23-RAIL
+    cdrom:
+      type: iso
+      iso_path: '[{{ esxi_datastore }}] {{ windows_iso }}'
+    disk:
+    - size_gb: '{{ vm_disk_gb }}'
+      type: thin
+      datastore: '{{ esxi_datastore }}'
+    hardware:
+      memory_mb: '{{ vm_memory_mb }}'
+      num_cpus: '{{ vm_num_cpus }}'
+      scsi: lsilogicsas
+    networks:
+    - name: '{{ vm_network }}'
+      device_type: e1000
+    wait_for_ip_address: no
+  delegate_to: localhost
+  register: deploy_vm
+
+- name: Create Windows11 VM
+  createVM:
+    name: XS23-RAIL-realwordEmulator
+    vm_size: Standard_DS1_v2
+    admin_username: XS23-RAIL
+    admin_password: "{{ password }}"
+    network_interfaces: nic-cs-web
+    os_type: Windows
+    image:
+        offer: Windows11
+        publisher: MicrosoftWindows
+        sku: 2019-Datacenter
+        version: latest
+  
+
+ - hosts: app
+   tasks:
+     - name: Copy config file 
+       run_once: yes
+       fetch: src=/tmp/app01-to-app02.jar dest=buffer/ flat=yes
+       when: "{{ inventory_hostname == 'mwiapp01' }}"
+
+     - name: Copy the file from master to mwiapp02
+       copy: src=buffer/app01-to-app02.jar dest=/tmp/
+       when: "{{ inventory_hostname == 'mwiapp02' }}"
+
+
+
+
+- name: Copy config file from ansible host to VM
+  hosts: '{{ target-vm-name }}'
+  tasks:
+    - name: Copying the config file
+      become: true 
+      copy:
+        src: '{{host-config-file-path}}'
+        dest: '{{git-cloned-file-path}}'
+        owner: XS23-RAIL
+        group: XS23-RAIL        
+

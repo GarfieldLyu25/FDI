@@ -1,0 +1,4 @@
+2025-03-28 12:02:16,976 ERROR    Error: Image file not found: C:\Users\MS\Desktop\Power_Grid_Simulation_System-main\Power_Grid_Simulation_System-main\src\PhysicalWorldEmu\img\solar_on1.png
+2025-03-28 12:02:16,977 ERROR    Error: Image file not found: C:\Users\MS\Desktop\Power_Grid_Simulation_System-main\Power_Grid_Simulation_System-main\src\PhysicalWorldEmu\img\solar_on2.png
+2025-03-28 12:02:17,059 INFO     Power Grid System  Physical World Simulation main frame inited.
+2025-03-28 12:02:18,068 INFO     datamanager subthread started.

@@ -1,0 +1,2 @@
+2025-04-01 21:41:32,384 INFO     Avalible Scenario file: ['defaultLocation.json', 'junctionCollision.json', 'maintenanceTest.json', 'trainCollisionTest.json']
+2025-04-01 21:41:32,389 INFO     Map display management controller inited

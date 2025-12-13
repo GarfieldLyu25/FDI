@@ -1,0 +1,25 @@
+2025-12-13 22:09:47,793 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-12-13 22:09:48,006 INFO     ScadaHMI dataMgr inited
+2025-12-13 22:09:50,305 INFO     DataManager: get PLC information
+2025-12-13 22:09:52,807 INFO     DataManager: get PLC information
+2025-12-13 22:09:54,811 INFO     DataManager: get PLC information
+2025-12-13 22:09:54,939 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 22:09:57,305 INFO     DataManager: get PLC information
+2025-12-13 22:09:59,309 INFO     DataManager: get PLC information
+2025-12-13 22:10:01,796 INFO     DataManager: get PLC information
+2025-12-13 22:10:01,924 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 22:10:03,809 INFO     DataManager: get PLC information
+2025-12-13 22:10:06,298 INFO     DataManager: get PLC information
+2025-12-13 22:10:08,299 INFO     DataManager: get PLC information
+2025-12-13 22:10:08,326 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-12-13 22:10:10,303 INFO     DataManager: get PLC information
+2025-12-13 22:10:12,308 INFO     DataManager: get PLC information
+2025-12-13 22:10:14,801 INFO     DataManager: get PLC information
+2025-12-13 22:10:15,306 INFO     DataManager: get PLC information
+2025-12-13 22:10:15,801 INFO     DataManager: get PLC information
+2025-12-13 22:10:16,296 INFO     DataManager: get PLC information
+2025-12-13 22:10:16,804 INFO     DataManager: get PLC information
+2025-12-13 22:10:17,307 INFO     DataManager: get PLC information
+2025-12-13 22:10:17,798 INFO     DataManager: get PLC information
+2025-12-13 22:10:18,299 INFO     DataManager: get PLC information
+2025-12-13 22:10:18,800 INFO     DataManager: get PLC information

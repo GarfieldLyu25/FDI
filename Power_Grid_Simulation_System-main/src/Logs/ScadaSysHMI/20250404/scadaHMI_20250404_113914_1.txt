@@ -1,0 +1,15 @@
+2025-04-04 11:39:14,341 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-04-04 11:39:14,347 INFO     ScadaHMI dataMgr inited
+2025-04-04 11:39:16,430 INFO     DataManager: get PLC information
+2025-04-04 11:39:18,931 INFO     DataManager: get PLC information
+2025-04-04 11:39:21,422 INFO     DataManager: get PLC information
+2025-04-04 11:39:23,434 INFO     DataManager: get PLC information
+2025-04-04 11:39:25,447 INFO     DataManager: get PLC information
+2025-04-04 11:39:27,945 INFO     DataManager: get PLC information
+2025-04-04 11:39:29,962 INFO     DataManager: get PLC information
+2025-04-04 11:39:31,965 INFO     DataManager: get PLC information
+2025-04-04 11:39:33,978 INFO     DataManager: get PLC information
+2025-04-04 11:39:36,476 INFO     DataManager: get PLC information
+2025-04-04 11:39:38,978 INFO     DataManager: get PLC information
+2025-04-04 11:39:40,986 INFO     DataManager: get PLC information
+2025-04-04 11:39:41,541 INFO     DataManager: Stopped all PLC clients

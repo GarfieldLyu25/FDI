@@ -1,0 +1,31 @@
+2025-04-04 21:48:59,944 INFO     DataManager: Connected to PLC 127.0.0.1
+2025-04-04 21:48:59,950 INFO     ScadaHMI dataMgr inited
+2025-04-04 21:49:02,040 INFO     DataManager: get PLC information
+2025-04-04 21:49:04,054 INFO     DataManager: get PLC information
+2025-04-04 21:49:06,555 INFO     DataManager: get PLC information
+2025-04-04 21:49:08,557 INFO     DataManager: get PLC information
+2025-04-04 21:49:11,049 INFO     DataManager: get PLC information
+2025-04-04 21:49:13,058 INFO     DataManager: get PLC information
+2025-04-04 21:49:15,544 INFO     DataManager: get PLC information
+2025-04-04 21:49:17,552 INFO     DataManager: get PLC information
+2025-04-04 21:49:19,558 INFO     DataManager: get PLC information
+2025-04-04 21:49:22,044 INFO     DataManager: get PLC information
+2025-04-04 21:49:24,045 INFO     DataManager: get PLC information
+2025-04-04 21:49:26,049 INFO     DataManager: get PLC information
+2025-04-04 21:49:28,055 INFO     DataManager: get PLC information
+2025-04-04 21:49:30,057 INFO     DataManager: get PLC information
+2025-04-04 21:49:32,552 INFO     DataManager: get PLC information
+2025-04-04 21:49:35,058 INFO     DataManager: get PLC information
+2025-04-04 21:49:37,545 INFO     DataManager: get PLC information
+2025-04-04 21:49:37,567 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-04-04 21:49:39,547 INFO     DataManager: get PLC information
+2025-04-04 21:49:42,056 INFO     DataManager: get PLC information
+2025-04-04 21:49:44,546 INFO     DataManager: get PLC information
+2025-04-04 21:49:44,569 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-04-04 21:49:46,556 INFO     DataManager: get PLC information
+2025-04-04 21:49:49,043 INFO     DataManager: get PLC information
+2025-04-04 21:49:51,057 INFO     DataManager: get PLC information
+2025-04-04 21:49:51,079 INFO     DataManager: set PLC coil:('PLC-00', 19, False)
+2025-04-04 21:49:53,077 INFO     DataManager: get PLC information
+2025-04-04 21:49:55,134 INFO     DataManager: get PLC information
+2025-04-04 21:49:56,093 INFO     DataManager: Stopped all PLC clients

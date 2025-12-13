@@ -1,0 +1,2 @@
+2025-03-28 16:35:52,576 ERROR    Error: Image file not found: C:\Users\MS\Desktop\Power_Grid_Simulation_System-main\Power_Grid_Simulation_System-main\src\PhysicalWorldEmu\img\solar_on1.png
+2025-03-28 16:35:52,577 ERROR    Error: Image file not found: C:\Users\MS\Desktop\Power_Grid_Simulation_System-main\Power_Grid_Simulation_System-main\src\PhysicalWorldEmu\img\solar_on2.png

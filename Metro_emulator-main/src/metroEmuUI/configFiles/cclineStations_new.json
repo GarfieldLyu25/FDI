@@ -1,0 +1,64 @@
+[
+    {
+        "id": "Casterly_Rock",
+        "pos": [
+            320,
+            700
+        ],
+        "layout": 5,
+        "signalLayout": 3
+    },
+    {
+        "id": "Lannisport",
+        "pos": [
+            200,
+            300
+        ],
+        "layout": 6,
+        "signalLayout": 1,
+        "labelPos": [
+            20,
+            -10
+        ]
+    },
+    {
+        "id": "Golden_Fields",
+        "pos": [
+            930,
+            200
+        ],
+        "layout": 5,
+        "signalLayout": 2
+    },
+    {
+        "id": "Goldroad",
+        "pos": [
+            1400,
+            600
+        ],
+        "layout": 6,
+        "signalLayout": 0,
+        "labelPos": [
+            20,
+            -10
+        ]
+    },
+    {
+        "id": "Riverrun",
+        "pos": [
+            1160,
+            700
+        ],
+        "layout": 5,
+        "signalLayout": 3
+    },
+    {
+        "id": "Sunset_Sea",
+        "pos": [
+            710,
+            700
+        ],
+        "layout": 5,
+        "signalLayout": 3
+    }
+]

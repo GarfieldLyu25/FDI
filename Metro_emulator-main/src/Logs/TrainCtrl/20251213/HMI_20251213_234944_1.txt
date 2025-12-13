@@ -1,0 +1,43 @@
+2025-12-13 23:49:44,476 INFO     Finished init map manager: OrderedDict([('weline', [<trainDataMgr.TrainAgent object at 0x00000218DB15C730>, <trainDataMgr.TrainAgent object at 0x00000218DB15C760>, <trainDataMgr.TrainAgent object at 0x00000218DB15C790>, <trainDataMgr.TrainAgent object at 0x00000218DB15C7C0>]), ('nsline', [<trainDataMgr.TrainAgent object at 0x00000218DB15C7F0>, <trainDataMgr.TrainAgent object at 0x00000218DB15C820>, <trainDataMgr.TrainAgent object at 0x00000218DB15C850>]), ('ccline', [<trainDataMgr.TrainAgent object at 0x00000218DB15C880>, <trainDataMgr.TrainAgent object at 0x00000218DB15C8B0>, <trainDataMgr.TrainAgent object at 0x00000218DB15C8E0>])])
+2025-12-13 23:49:44,483 INFO     DataManager: Connected to PLC.
+2025-12-13 23:49:44,492 INFO     TrainsHMI dataMgr inited
+2025-12-13 23:49:44,831 INFO     Power all the trains power state to PLC
+2025-12-13 23:49:44,831 INFO     DataManager: set PLC coil:('PLC-06', 0, True)
+2025-12-13 23:49:44,933 INFO     DataManager: set PLC coil:('PLC-06', 1, True)
+2025-12-13 23:49:45,034 INFO     DataManager: set PLC coil:('PLC-06', 2, True)
+2025-12-13 23:49:45,134 INFO     DataManager: set PLC coil:('PLC-06', 3, True)
+2025-12-13 23:49:45,234 INFO     DataManager: set PLC coil:('PLC-06', 4, True)
+2025-12-13 23:49:45,334 INFO     DataManager: set PLC coil:('PLC-06', 5, True)
+2025-12-13 23:49:45,435 INFO     DataManager: set PLC coil:('PLC-06', 6, True)
+2025-12-13 23:49:45,535 INFO     DataManager: set PLC coil:('PLC-06', 7, True)
+2025-12-13 23:49:45,635 INFO     DataManager: set PLC coil:('PLC-06', 8, True)
+2025-12-13 23:49:45,736 INFO     DataManager: set PLC coil:('PLC-06', 9, True)
+2025-12-13 23:49:45,836 INFO     Chage the collision avoidance config
+2025-12-13 23:49:45,836 INFO     DataManager: set PLC coil:('PLC-06', 10, True)
+2025-12-13 23:49:47,939 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:48,041 INFO     DataManager: try to get RTU information
+2025-12-13 23:49:50,438 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:50,540 INFO     DataManager: try to get RTU information
+2025-12-13 23:49:52,445 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:52,547 INFO     DataManager: try to get RTU information
+2025-12-13 23:49:54,446 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:54,547 INFO     DataManager: try to get RTU information
+2025-12-13 23:49:56,936 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:57,038 INFO     DataManager: try to get RTU information
+2025-12-13 23:49:58,950 INFO     DataManager: try to get PLC information
+2025-12-13 23:49:59,050 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:01,446 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:01,566 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:03,943 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:04,045 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:05,944 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:06,045 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:08,445 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:08,546 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:10,942 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:11,044 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:12,951 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:13,052 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:15,437 INFO     DataManager: try to get PLC information
+2025-12-13 23:50:15,540 INFO     DataManager: try to get RTU information
+2025-12-13 23:50:17,216 INFO     DataManager: Stopped all PLC clients

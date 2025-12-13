@@ -1,0 +1,6 @@
+2025-04-01 17:31:44,308 INFO     Start Init the RTU: RTU-01-10
+2025-04-01 17:31:44,309 INFO     Try to connnect to the realword [('127.0.0.1', 3001)]...
+2025-04-01 17:31:44,309 INFO     Realworld emulator online, state: ready
+2025-04-01 17:31:44,310 INFO     Login the realworld successfully.
+2025-04-01 17:31:44,337 INFO     S7comm service thread run() start.
+2025-04-01 17:31:44,338 INFO     Finished init the RTU: RTU-01-10
