@@ -92,7 +92,7 @@ ENV_TYPE            = 'EV'
 JUNCTION_TYPE       = 'JC'
 
 PERIODIC = 300      # update the main in every 300ms
-UDP_PORT = 3001
+UDP_PORT = 3002
 
 # Init the UI layout flags
 LAY_U = 0   # layout at up position  

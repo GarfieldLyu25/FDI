@@ -1,4 +1,4 @@
 echo "Running Power Grid System Control PLC Program [plcSimulatorPwr.py]"
 @echo off
-python plcCtrl\plcSimulatorPwr.py
+D:\Anaconda\envs\powersystem\python.exe plcCtrl\plcSimulatorPwr.py
 pause

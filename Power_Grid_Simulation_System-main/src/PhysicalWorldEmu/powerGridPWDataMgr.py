@@ -76,6 +76,7 @@ class DataManager(threading.Thread):
         self.powerPlcUpdateT = 0
         self.powerRtuUpdateT = 0
         self.powerLinkUpdateT = 0 
+        self.metroTotals = {}
 
     #-----------------------------------------------------------------------------
     def fetchSwitchesData(self):
@@ -204,6 +205,9 @@ class DataManager(threading.Thread):
         self.powerLinkUpdateT = time.time()
         return json.dumps(data)
 
+    def fetchMetroTotals(self):
+        return json.dumps(self.metroTotals)
+
     #-----------------------------------------------------------------------------
     def getLastPlcsConnectionState(self):
         #print time.strftime("%b %d %Y %H:%M:%S", time.localtime(time.time))
@@ -295,6 +299,23 @@ class DataManager(threading.Thread):
             gv.gDebugPrint("setTrainsPower() Error: %s" %str(err), logType=gv.LOG_EXCEPT)
         return respStr
 
+    def setMetroTotals(self, reqJsonStr):
+        respStr = json.dumps({'result': 'failed'})
+        try:
+            reqDict = json.loads(reqJsonStr)
+            line_id = reqDict.get('line_id')
+            if line_id:
+                self.metroTotals[line_id] = {
+                    'ts_ms': reqDict.get('ts_ms'),
+                    'bus_v': reqDict.get('bus_v'),
+                    'total_i': reqDict.get('total_i'),
+                    'train_count': reqDict.get('train_count')
+                }
+                respStr = json.dumps({'result': 'success'})
+        except Exception as err:
+            gv.gDebugPrint("setMetroTotals() Error: %s" %str(err), logType=gv.LOG_EXCEPT)
+        return respStr
+
    #-----------------------------------------------------------------------------
     def msgHandler(self, msg):
         """ Function to handle the data-fetch/control request from the monitor-hub.
@@ -322,10 +343,16 @@ class DataManager(threading.Thread):
             elif reqType == 'powerLink':
                 respStr = self.fetchPowerLinkState()
                 resp =';'.join(('REP', 'powerLink', respStr))
+            elif reqType == 'metroTotals':
+                respStr = self.fetchMetroTotals()
+                resp =';'.join(('REP', 'metroTotals', respStr))
         elif reqKey=='POST':
             if reqType == 'powerPlc':
                 respStr = self.setCtrlSwitch(reqJsonStr)
                 resp =';'.join(('REP', 'powerPlc', respStr))
+            elif reqType == 'metroTotals':
+                respStr = self.setMetroTotals(reqJsonStr)
+                resp =';'.join(('REP', 'metroTotals', respStr))
             # TODO: Handle all the control request here.
         if isinstance(resp, str): resp = resp.encode('utf-8')
         #gv.gDebugPrint('reply: %s' %str(resp), logType=gv.LOG_INFO )

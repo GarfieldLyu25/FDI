@@ -94,7 +94,51 @@ class DataManager(threading.Thread):
         }
         self.trainRtuUpdateT = 0
 
+        # Track last received power-link state (from power grid)
+        self._last_powerlink_railway = None
+
+        # Optional: start totals sender only when enabled in config
+        try:
+            if getattr(gv, 'CONFIG_DICT', {}).get('METRO_TOTALS_SENDER', False):
+                self._startMetroTotalsSender()
+        except Exception as _:
+            pass
+
+        # Optional: log metro totals locally without sending to power grid
+        try:
+            if getattr(gv, 'CONFIG_DICT', {}).get('METRO_TOTALS_LOG_ONLY', False):
+                threading.Thread(target=self._logMetroTotalsLoop, daemon=True).start()
+        except Exception as _:
+            pass
+
+        # Optional: start power-link watcher only when enabled in config
+        try:
+            if getattr(gv, 'CONFIG_DICT', {}).get('POWERLINK_WATCHER', False):
+                self._startPowerLinkWatcher()
+        except Exception as _:
+            pass
+
         gv.gDebugPrint("datamanager init finished.", logType=gv.LOG_INFO)
+
+    def _applyRailwayPowerLink(self, railway_on: bool):
+        """Apply power-link state to all trains.
+
+        When railway_on is False, force emergency stop.
+        When railway_on is True, release emergency stop.
+        """
+        if not gv.iMapMgr:
+            return
+        stop_flag = not bool(railway_on)
+        for line_id in ('weline', 'nsline', 'ccline', 'mtline'):
+            try:
+                for train in gv.iMapMgr.getTrains(trackID=line_id) or []:
+                    train.setEmgStop(stop_flag)
+            except Exception:
+                pass
+        gv.gDebugPrint(
+            'PowerLink applied: railway=%s -> emgStop=%s' % (str(int(bool(railway_on))), str(stop_flag)),
+            logType=gv.LOG_WARN if stop_flag else gv.LOG_INFO,
+        )
 
     #-----------------------------------------------------------------------------
     # Define all the data fetching request here:
@@ -216,6 +260,18 @@ class DataManager(threading.Thread):
             elif reqType == 'trainsPlc':
                 respStr = self.setTrainsPower(reqJsonStr)
                 resp =';'.join(('REP', 'trainsPlc', respStr))
+            elif reqType == 'powerLink':
+                # Power grid pushes linkage status as: POST;powerLink;{"railway": 0/1, ...}
+                try:
+                    d = json.loads(reqJsonStr) if reqJsonStr else {}
+                    railway_on = bool(d.get('railway', True))
+                    if self._last_powerlink_railway is None or railway_on != self._last_powerlink_railway:
+                        self._applyRailwayPowerLink(railway_on)
+                        self._last_powerlink_railway = railway_on
+                    resp = ';'.join(('REP', 'powerLink', json.dumps({'result': 'success'})))
+                except Exception as err:
+                    gv.gDebugPrint("powerLink handle error: %s" % str(err), logType=gv.LOG_EXCEPT)
+                    resp = ';'.join(('REP', 'powerLink', json.dumps({'result': 'failed'})))
             pass
             # TODO: Handle all the control request here.
         if isinstance(resp, str): resp = resp.encode('utf-8')
@@ -335,3 +391,127 @@ class DataManager(threading.Thread):
         endClient = udpCom.udpClient(('127.0.0.1', gv.UDP_PORT))
         endClient.disconnect()
         endClient = None
+
+    def _collectMetroTotalsPayloads(self):
+        payloads = []
+        if gv.iMapMgr:
+            ts_ms = int(time.time() * 1000)
+            for line_id in ('weline', 'nsline', 'ccline', 'mtline'):
+                trains = gv.iMapMgr.getTrains(trackID=line_id)
+                total_i = 0.0
+                voltages = []
+                for tr in trains:
+                    info = tr.getTrainRealInfo() or {}
+                    total_i += float(info.get('current', 0) or 0)
+                    v = info.get('voltage')
+                    if v is not None:
+                        try:
+                            voltages.append(float(v))
+                        except Exception:
+                            pass
+                bus_v = float(sum(voltages) / len(voltages)) if voltages else 0.0
+                payloads.append({
+                    'ts_ms': ts_ms,
+                    'line_id': line_id,
+                    'bus_v': bus_v,
+                    'total_i': total_i,
+                    'train_count': len(trains)
+                })
+        return payloads
+
+    def _startMetroTotalsSender(self):
+        class MetroTotalsSender(threading.Thread):
+            def __init__(self, parent, target):
+                threading.Thread.__init__(self)
+                self.parent = parent
+                self.target = target
+                self.daemon = True
+                self.client = udpCom.udpClient(target)
+
+            def _aggregate(self):
+                return self.parent._collectMetroTotalsPayloads()
+
+            def run(self):
+                while True:
+                    try:
+                        for pl in self._aggregate() or []:
+                            msg = 'POST;metroTotals;'+json.dumps(pl)
+                            self.client.sendMsg(msg, resp=False)
+                    except Exception:
+                        pass
+                    time.sleep(0.5)
+
+        # Power grid side uses UDP/3001; metro UI server uses UDP/3002.
+        target = ('127.0.0.1', 3001)
+        MetroTotalsSender(self, target).start()
+
+    def _logMetroTotalsLoop(self):
+        interval = None
+        try:
+            interval = float(getattr(gv, 'gUpdateRate', 2.0))
+        except Exception:
+            interval = 2.0
+        if interval <= 0:
+            interval = 2.0
+
+        warned = False
+        while not self.terminate:
+            payloads = self._collectMetroTotalsPayloads()
+            if not payloads:
+                if not warned:
+                    gv.gDebugPrint("Metro totals unavailable (map manager not ready yet).", logType=gv.LOG_WARN)
+                    warned = True
+                time.sleep(1.0)
+                continue
+            warned = False
+            for entry in payloads:
+                msg = ("Metro totals | line=%s | bus_v=%.2f | total_i=%.2f | trains=%d"
+                       % (entry['line_id'], entry['bus_v'], entry['total_i'], entry['train_count']))
+                gv.gDebugPrint(msg, logType=gv.LOG_INFO)
+            time.sleep(interval)
+
+    def _startPowerLinkWatcher(self):
+        class PowerLinkWatcher(threading.Thread):
+            def __init__(self, parent, target):
+                threading.Thread.__init__(self)
+                self.parent = parent
+                self.daemon = True
+                self.client = udpCom.udpClient(target)
+                self.seen_true = False
+                self.false_count = 0
+
+            def _set_all_trains_power(self, state):
+                try:
+                    self.parent._applyRailwayPowerLink(bool(state))
+                except Exception:
+                    pass
+
+            def run(self):
+                last_state = None
+                while True:
+                    try:
+                        req = 'GET;powerLink;{"railway": null}'
+                        resp = self.client.sendMsg(req, resp=True)
+                        if isinstance(resp, bytes):
+                            k, t, j = parseIncomeMsg(resp)
+                            if k == 'REP' and t == 'powerLink':
+                                import json as _json
+                                d = _json.loads(j)
+                                railway_on = bool(d.get('railway', True))
+                                # Debounce: only act if we've seen power ON before
+                                if railway_on:
+                                    self.seen_true = True
+                                    self.false_count = 0
+                                else:
+                                    if self.seen_true:
+                                        self.false_count += 1
+                                        if self.false_count >= 3:
+                                            self._set_all_trains_power(False)
+                                            # one-shot stop; keep state
+                                last_state = railway_on
+                    except Exception:
+                        pass
+                    time.sleep(1.0)
+
+        # Power grid side uses UDP/3001; metro UI server uses UDP/3002.
+        PowerLinkWatcher(self, ('127.0.0.1', 3001)).start()

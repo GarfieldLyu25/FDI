@@ -27,7 +27,7 @@ RTU_ID:RTU-01-10
 RTU_IP:127.0.0.1
 
 # Target RTU Port (default 102) 
-RTU_PORT:102
+RTU_PORT:1102
 
 #-----------------------------------------------------------------------------
 # Define all the HMI UI config paramters

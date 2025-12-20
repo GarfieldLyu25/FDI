@@ -130,12 +130,39 @@ class s7CommClient(object):
         self._libPath = snapLibPath
         self.client = snap7.client.Client() if snapLibPath is None else snap7.client.Client(lib_location=snapLibPath)
         self.connected = False
+        self._lastErrTs = 0.0
+        self._lastErrMsg = None
+        self._lastReconnectTryTs = 0.0
+        self._reconnectMinIntervalSec = 3.0
+        self._connect()
+
+    #-----------------------------------------------------------------------------
+    def _connect(self):
         try:
             self.client.connect(self._rtuIp, 0, 0, self._rtuPort)
             self.connected = self.client.get_connected()
         except Exception as err:
-            print("s7CommClient init Error: %s" % err)
-            return None
+            self.connected = False
+            self._maybePrintErr("s7CommClient connect Error: %s" % str(err))
+
+    #-----------------------------------------------------------------------------
+    def _maybePrintErr(self, msg, minIntervalSec=5.0):
+        now = time.time()
+        if msg != self._lastErrMsg or (now - self._lastErrTs) >= float(minIntervalSec):
+            print(msg)
+            self._lastErrTs = now
+            self._lastErrMsg = msg
+
+    #-----------------------------------------------------------------------------
+    def _ensureConnected(self):
+        if self.connected and self.client.get_connected():
+            return True
+        now = time.time()
+        if (now - self._lastReconnectTryTs) < self._reconnectMinIntervalSec:
+            return False
+        self._lastReconnectTryTs = now
+        self._connect()
+        return self.connected
 
     #-----------------------------------------------------------------------------
     def checkConn(self):
@@ -153,12 +180,14 @@ class s7CommClient(object):
                 list(data): return the byte orignal data if the input dataIdxList is None 
                     else a list of the data. 
         """
-        data = None 
+        if not self._ensureConnected():
+            return None
+        data = None
         try:
             data = self.client.db_read(addressIdx, 0, 8)
             self.connected = True
         except Exception as err:
-            print("Error: readAddressVal()> read RTU data error: %s" %str(err))
+            self._maybePrintErr("Error: readAddressVal()> read RTU data error: %s" % str(err))
             self.connected = False
             return None
         # return the byte orignal data if the input dataIdxList is None 
@@ -187,14 +216,16 @@ class s7CommClient(object):
         else:
             snap7.util.set_real(command, 0, float(data))
 
-        try: 
+        if not self._ensureConnected():
+            return None
+        try:
             rst = self.client.db_write(addressIdx, dataIdx, command)
             self.connected = True
             return rst
         except Exception as err:
-            print("Error: setAddressVal()> set RTU data error: %s" %str(err))
+            self._maybePrintErr("Error: setAddressVal()> set RTU data error: %s" % str(err))
             self.connected = False
-            return None 
+            return None
 
     #-----------------------------------------------------------------------------
     def close(self):

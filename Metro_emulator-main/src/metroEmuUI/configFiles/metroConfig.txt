@@ -11,7 +11,7 @@
 TEST_MD:True
 
 # Init the dataManager port for PCL to fetch and set data. 
-UDP_PORT:3001
+UDP_PORT:3002
 
 #-----------------------------------------------------------------------------
 # define UI title name 
@@ -43,3 +43,12 @@ WE_STATION_CFG:welineStations.json
 NC_STATION_CFG:nslineStations.json
 CC_STATION_CFG:cclineStations.json
 MT_STATION_CFG:mtlineStations.json
+
+#-----------------------------------------------------------------------------
+# Optional Metro-Power coordination flags (all default to False)
+# Enable sending metro totals to the power system (UDP target defined in dataMgr)
+METRO_TOTALS_SENDER:False
+# Log metro totals locally without sending them out (periodic)
+METRO_TOTALS_LOG_ONLY:True
+# Watch power-link state changes published by the power grid emulator
+POWERLINK_WATCHER:False

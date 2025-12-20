@@ -38,7 +38,7 @@ import udpCom
 import modbusTcpCom
 
 RECON_INT = 30 # reconnection time interval default set 30 sec
-DEF_RW_PORT = 3001  # default realworld UDP connection port
+DEF_RW_PORT = 3002  # default realworld UDP connection port
 DEF_MB_PORT = 502   # default modbus port.
 
 # Define all the module local untility functions here:

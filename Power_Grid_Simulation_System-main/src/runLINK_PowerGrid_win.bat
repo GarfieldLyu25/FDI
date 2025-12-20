@@ -1,4 +1,4 @@
 echo "Running Enery System Power Link [PowerLinkRun.py]"
 @echo off
-python powerlink\PowerLinkRun.py
+D:\Anaconda\envs\powersystem\python.exe powerlink\PowerLinkRun.py
 pause

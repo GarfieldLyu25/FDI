@@ -218,6 +218,7 @@ class DataManager(object):
         time.sleep(0.1)
         gv.gDebugPrint('DataManager: try to get RTU information', logType=gv.LOG_INFO)
         self.fetchRTUdata()
+        self.rtuConnectionState = self.rtuClient.checkConn()
 
     #-----------------------------------------------------------------------------
     def fetchRTUdata(self):

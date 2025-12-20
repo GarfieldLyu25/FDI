@@ -20,7 +20,7 @@ ALLOW_W_L:["127.0.0.1"]
 RW_IP:127.0.0.1
 
 # Define Realworld emulator connection port
-RW_PORT:3001
+RW_PORT:3002
 
 # Define PLC clock interval
 CLK_INT:0.6
