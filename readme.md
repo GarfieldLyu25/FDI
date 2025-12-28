@@ -6,5 +6,7 @@ win11可以用requirements.txt配置环境    使用conda管理环境  py3.11
 python Download/attackScript_FDI.py
 ```
 自己重写了启动脚本
-下一步准备把环境分开，模拟攻击
 ![img.png](img.png)
+
+
+remote分支上是本地win11攻击者 unbuntu被攻击
