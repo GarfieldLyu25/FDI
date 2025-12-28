@@ -121,9 +121,23 @@ class DataManager(object):
         """ Connect to RTU to fetch the data."""
         for key in self.regsStateRW.keys():
             memoryIdx = self.regsStateRW[key]
-            rtuDataList = self.rtuClient.readAddressVal(memoryIdx, dataIdxList = (0, 2, 4, 6), 
-                                                        dataTypeList=[INT_TYPE, INT_TYPE, INT_TYPE, INT_TYPE])
-            self.rtuDataDict[key] = rtuDataList.copy()
+            rtuDataList = self.rtuClient.readAddressVal(
+                memoryIdx,
+                dataIdxList=(0, 2, 4, 6),
+                dataTypeList=[INT_TYPE, INT_TYPE, INT_TYPE, INT_TYPE]
+            )
+            # readAddressVal() may return None when communication fails, so
+            # protect against that instead of raising AttributeError.
+            if rtuDataList is None:
+                gv.gDebugPrint('DataManager: Fail to read RTU data for %s' % str(key),
+                               logType=gv.LOG_ERR)
+                # 标记 RTU 离线，但保留旧数据，下一次周期继续尝试读，
+                # 方便在 RTU 恢复后自动重连。
+                self.rtuConnectionState = False
+                continue
+            # 存一份拷贝，避免后续代码意外修改原始列表/元组。
+            self.rtuDataDict[key] = list(rtuDataList)
+            self.rtuConnectionState = True
         print(self.rtuDataDict)
 
     #-----------------------------------------------------------------------------

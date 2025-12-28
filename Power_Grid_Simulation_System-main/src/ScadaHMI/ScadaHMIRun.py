@@ -257,6 +257,10 @@ class UIFrame(wx.Frame):
     def updateMapComponents(self):
         if gv.idataMgr is None: return
         registList = gv.idataMgr.getPlcHRegsData('PLC-00', 0, 21)
+        # When PLC is not connected yet, registList can be None.
+        # Avoid crashing the UI update loop; connection indicator will show offline.
+        if registList is None:
+            return
         gv.iMapMgr.setItemsPwrState(registList)
     
     #-----------------------------------------------------------------------------

@@ -337,31 +337,50 @@ class modbusTcpClient(object):
 
     def getCoilsBits(self, addressIdx, offset):
         """ Get the coils bit list [addressIdx: addressIdx + offset] of the PLC."""
-        if self.client.is_open:
-            data = self.client.read_coils(addressIdx, offset)
-            if data: return list(data)
+        # Client may start before server is up. Allow reconnect attempts.
+        if not self.client.is_open:
+            try:
+                self.client.open()
+            except Exception:
+                return None
+        data = self.client.read_coils(addressIdx, offset)
+        if data is not None:
+            return list(data)
         return None
     
     def getHoldingRegs(self, addressIdx, offset):
         """ Get the holding register bit list [addressIdx: addressIdx + offset] of the PLC."""
-        if self.client.is_open:
-            data = self.client.read_holding_registers(addressIdx, offset)
-            if data: return list(data)
+        if not self.client.is_open:
+            try:
+                self.client.open()
+            except Exception:
+                return None
+        data = self.client.read_holding_registers(addressIdx, offset)
+        if data is not None:
+            return list(data)
         return None
 
 #-----------------------------------------------------------------------------
 # Define all the set() functions here:
 
     def setCoilsBit(self, addressIdx, bitVal):
-        if self.client.is_open:
-            data = self.client.write_single_coil(addressIdx, bitVal)
-            return data
+        if not self.client.is_open:
+            try:
+                self.client.open()
+            except Exception:
+                return None
+        data = self.client.write_single_coil(addressIdx, bitVal)
+        return data
         return None
 
     def setHoldingRegs(self, addressIdx, bitVal):
-        if self.client.is_open:
-            data = self.client.write_single_register(addressIdx, bitVal)
-            return data
+        if not self.client.is_open:
+            try:
+                self.client.open()
+            except Exception:
+                return None
+        data = self.client.write_single_register(addressIdx, bitVal)
+        return data
         return None
 
     def close(self):

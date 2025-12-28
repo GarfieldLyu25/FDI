@@ -21,4 +21,5 @@ CLK_INT:2
 S7COMM_IP:0.0.0.0
 
 # Define Modbus TCP host Port, normally use 502
-S7COMM_PORT:102
+# Note: On Linux ports <1024 require root, so use 1102 here
+S7COMM_PORT:1102

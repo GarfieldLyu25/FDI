@@ -37,7 +37,9 @@ import Log  # the module need to work with the lib Log module
 import udpCom
 import modbusTcpCom
 
-RECON_INT = 30 # reconnection time interval default set 30 sec
+# Note: this counter is decremented once per main loop tick (updateInt).
+# Keep it small so startup converges quickly even if processes start out-of-order.
+RECON_INT = 5  # reconnection loop interval (in ticks)
 DEF_RW_PORT = 3002  # default realworld UDP connection port
 DEF_MB_PORT = 502   # default modbus port.
 

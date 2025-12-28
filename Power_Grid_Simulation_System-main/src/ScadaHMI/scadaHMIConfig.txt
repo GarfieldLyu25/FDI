@@ -13,7 +13,7 @@ TEST_MD:False
 # Init the sensor-signal PLC set information
 PWR_PLC_ID:PLC-00
 PWR_PLC_IP:127.0.0.1
-PWR_PLC_PORT:502
+PWR_PLC_PORT:1502
 
 #-----------------------------------------------------------------------------
 # Init the RTU(need to connect) information 
@@ -23,7 +23,7 @@ RTU_ID:RTU-01-10
 RTU_IP:127.0.0.1
 
 # Target RTU Port (default 102) 
-RTU_PORT:102
+RTU_PORT:1102
 
 #-----------------------------------------------------------------------------
 # Define all the HMI UI config parameters

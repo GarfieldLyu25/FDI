@@ -44,6 +44,10 @@ class UIFrame(wx.Frame):
         self.updateLock = False
         self.plcOnline = True if gv.TEST_MD else False
         self.rtuOnline = True if gv.TEST_MD else False
+        # Track PLC online transitions so we can (re)push desired coil configs
+        # after the PLC Modbus server becomes available.
+        self._lastPlcOnline = self.plcOnline
+        self._pendingPlcConfigPush = (not gv.TEST_MD)
         # Turn on all the trains power during init.
         self.loadTrainsPwrConfig()
         # Load the auto collision config setting 
@@ -337,6 +341,11 @@ class UIFrame(wx.Frame):
                 gv.idataMgr.periodic(now)
                 # real module step 2: Update the Plc display
                 self.updatePlcConIndicator()
+                # If PLC became reachable after startup, push desired initial configs once.
+                if self.plcOnline and getattr(self, '_pendingPlcConfigPush', False):
+                    self.loadTrainsPwrConfig()
+                    self.loadAutoCAConfig()
+                    self._pendingPlcConfigPush = False
                 if self.plcOnline: self.updatePlcPanels()
                 # real module step 3: mapping the plc info to trains info.
                 self.updateRtuConIndicator()
@@ -358,6 +367,10 @@ class UIFrame(wx.Frame):
         """ Update the PLC's state panel connection state."""
         if gv.idataMgr is None: return False
         self.plcOnline = gv.idataMgr.getPlcConntionState(gv.PLC_ID)
+        # If PLC just came online, schedule a one-shot config push.
+        if (not self._lastPlcOnline) and self.plcOnline:
+            self._pendingPlcConfigPush = True
+        self._lastPlcOnline = self.plcOnline
         for plcPanel in self.plcPnls.values():
             plcPanel.setConnection(self.plcOnline)
         return True

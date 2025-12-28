@@ -43,7 +43,7 @@ import udpCom
 import snap7Comm
 from snap7Comm import BOOL_TYPE, INT_TYPE, REAL_TYPE
 
-RECON_INT = 30      # reconnection time interval default set 30 sec
+RECON_INT = 5       # reconnection time interval (was 30 sec)
 DEF_RW_PORT = 3001  # default realworld UDP connection port
 DEF_S7_PORT = 102   # default S7comm port.
 

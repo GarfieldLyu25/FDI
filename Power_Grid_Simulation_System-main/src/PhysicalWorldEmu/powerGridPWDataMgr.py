@@ -336,7 +336,8 @@ class DataManager(threading.Thread):
                 resp = ';'.join(('REP', 'login', json.dumps({'state':'ready'})))
             elif reqType == 'powerPlc':
                 respStr = self.fetchSwitchesData()
-                resp =';'.join(('REP', 'switches', respStr))
+                # Keep reply type consistent with request type.
+                resp =';'.join(('REP', 'powerPlc', respStr))
             elif reqType == 'powerRtu':
                 respStr = self.fetchComponentsVal()
                 resp =';'.join(('REP', 'powerRtu', respStr))

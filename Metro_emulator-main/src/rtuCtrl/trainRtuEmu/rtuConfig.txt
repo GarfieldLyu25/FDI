@@ -21,4 +21,4 @@ CLK_INT:2
 S7COMM_IP:0.0.0.0
 
 # Define modbus TCP host Port, normally use 502
-S7COMM_PORT:1102
+S7COMM_PORT:2102
