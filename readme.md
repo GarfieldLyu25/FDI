@@ -10,3 +10,5 @@ win11可以用requirements.txt配置环境    使用conda管理环境  py3.11
 
 
 remote分支上是本地win11攻击者 unbuntu被攻击
+
+https://bcnmm99fzo4h.feishu.cn/wiki/ZhPKwQv1git7LfkEDMlcoFHNnWR
