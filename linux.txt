@@ -33,3 +33,4 @@ pip install \
 
 sudo apt update
 sudo apt install -y nmap
+pip install influxdb==5.3.0
