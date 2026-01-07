@@ -30,4 +30,5 @@ CLK_INT:0.9
 MD_BUS_IP:0.0.0.0
 
 # Define Modbus TCP host Port, normally use 502
-MD_BUS_PORT:502
+# Note: On Linux ports <1024 require root, so use 1502 here
+MD_BUS_PORT:1502

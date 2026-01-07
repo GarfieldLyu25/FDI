@@ -31,4 +31,4 @@ CLK_INT:0.9
 MD_BUS_IP:0.0.0.0
 
 # Define modbus TCP host Port, normally use 502
-MD_BUS_PORT:504
+MD_BUS_PORT:2504

@@ -130,12 +130,35 @@ class s7CommClient(object):
         self._libPath = snapLibPath
         self.client = snap7.client.Client() if snapLibPath is None else snap7.client.Client(lib_location=snapLibPath)
         self.connected = False
+        # Try initial connection once; later读写会在需要时自动重连。
         try:
             self.client.connect(self._rtuIp, 0, 0, self._rtuPort)
             self.connected = self.client.get_connected()
         except Exception as err:
             print("s7CommClient init Error: %s" % err)
-            return None
+
+    #-----------------------------------------------------------------------------
+    def _ensure_connected(self):
+        """Ensure the snap7 client has an active TCP connection.
+
+        When the RTU server restarts or was not ready at startup, the
+        underlying socket can be closed which leads to 'ISO : Other Socket
+        error (32)'. In that case we try to reconnect here.
+        """
+        if self.connected:
+            return True
+        try:
+            # Close any existing socket state before reconnect.
+            try:
+                self.client.disconnect()
+            except Exception:
+                pass
+            self.client.connect(self._rtuIp, 0, 0, self._rtuPort)
+            self.connected = self.client.get_connected()
+        except Exception as err:
+            print("s7CommClient reconnect Error: %s" % err)
+            self.connected = False
+        return self.connected
 
     #-----------------------------------------------------------------------------
     def checkConn(self):
@@ -154,6 +177,10 @@ class s7CommClient(object):
                     else a list of the data. 
         """
         data = None 
+        # If connection is lost or not yet established, try to reconnect.
+        if not self._ensure_connected():
+            print("Error: readAddressVal()> RTU not connected, skip read")
+            return None
         try:
             data = self.client.db_read(addressIdx, 0, 8)
             self.connected = True
@@ -187,6 +214,10 @@ class s7CommClient(object):
         else:
             snap7.util.set_real(command, 0, float(data))
 
+        # Ensure we have a live connection before writing.
+        if not self._ensure_connected():
+            print("Error: setAddressVal()> RTU not connected, skip write")
+            return None
         try: 
             rst = self.client.db_write(addressIdx, dataIdx, command)
             self.connected = True

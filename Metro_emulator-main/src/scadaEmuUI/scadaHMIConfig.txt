@@ -12,12 +12,12 @@ TEST_MD:False
 # Init the sensor-signal PLC set information
 SEN_PLC_ID:PLC-00
 SEN_PLC_IP:127.0.0.1
-SEN_PLC_PORT:502
+SEN_PLC_PORT:2502
 
 # Init the station PLC set information
 STN_PLC_ID:PLC-03
 STN_PLC_IP:127.0.0.1
-STN_PLC_PORT:503
+STN_PLC_PORT:2503
 
 #-----------------------------------------------------------------------------
 # Define all the HMI UI config paramters

@@ -19,8 +19,13 @@ import powerGridPWGlobal as gv
 #-----------------------------------------------------------------------------
 class PanelCtrl(wx.Panel):
     """ Control Panel for changing the viewer diaplay map setting."""
-    def __init__(self, parent, panelSize=(150, 950)):
-        wx.Panel.__init__(self, parent, size=panelSize)
+    def __init__(self, parent, panelSize=None):
+        # Do not force a fixed panel size by default to avoid GTK layout
+        # issues on Linux (negative size allocation for check boxes).
+        if panelSize is None:
+            wx.Panel.__init__(self, parent)
+        else:
+            wx.Panel.__init__(self, parent, size=panelSize)
         self.SetBackgroundColour(wx.Colour(200, 200, 200))
         self.SetSizer(self._buildUISizer())
 
